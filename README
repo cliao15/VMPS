@@ -1,0 +1,37 @@
+This project aims at calculation of groud state and relavant properties of 1D ANNNI model
+with transverse and longitudinal field using MPS (Matrix Product State) representation.
+
+Input:
+(1)     J1      constant for nearest neighboring interaction
+(2)     J2      constant for next nearest neighboring interaction
+(3)     Hx      transverse field strength
+(4)     Hz      longtitude field strength
+(5)     Tol     error tolerance
+(6)     N       number of sites
+(7)     BoundaryCondition      boundary condition (OBC(0)/PBC(1))
+(8)     Method  Exact Diagolization(0)/VMPS(1)/Time Evolution(2)
+(9)     FES     0/1 whether calculating first excited state?
+(10)    Gap     0/1 output energy gap
+(11)    Magx    0/1 output magnetization in X direaction
+(12)    Magy    0/1 output magnetization in Y direaction
+(13)    Magz    0/1 output magnetization in Z direaction
+(14)    Corr    correlation length
+(15)    Cxx     0/1 output correlation in X direaction with length Corr
+(16)    Cyy     0/1 output correlation in Y direaction with length Corr
+(17)    Czz     0/1 output correlation in Z direaction with length Corr
+
+
+Output:
+(1) State energy
+(2) State Configuration
+(3) statistical data
+
+#   Installation
+[1] mkdir build
+[2] cd build
+[3] cmake ..
+[4] make
+
+The executable file is in the directory build/bin. Users could copy the input
+file from directory script and modify the parameters. Then type ./qsAnnni and 
+the programme should work.
