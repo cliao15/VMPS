@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/qsAnnni.dir/main.cpp.o CMakeFiles/qsAnnni.dir/readinput.cpp.o CMakeFiles/qsAnnni.dir/diag.cpp.o CMakeFiles/qsAnnni.dir/mps.cpp.o CMakeFiles/qsAnnni.dir/tsrproj.cpp.o CMakeFiles/qsAnnni.dir/vmps.cpp.o  -o ../bin/qsAnnni -rdynamic 
